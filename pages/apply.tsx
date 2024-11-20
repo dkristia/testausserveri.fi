@@ -23,6 +23,10 @@ const InputFlow = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 1em;
   width: 100%;
+
+  @media only screen and (max-width: 450px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 export default function MembersAreaHome() {
