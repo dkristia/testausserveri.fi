@@ -10,9 +10,9 @@ Rajapinnat ja taustajärjestelmät ovat [Testausapis](https://github.com/Testaus
 
 Paikallisen kehitysympäristön saa pystytettyä seuraavilla ohjeilla. Oletuksena on oltava asennettuna: Node.js v16, Npm, Git.
 
-1. `git clone https://github.com/testausserveri/testausserveri.fi`
-1. `npm install --save-dev`
-1. Kopioi tiedosto `.example.env` tiedostoon `.env`
+1. `git clone https://github.com/testausserveri/testausserveri.fi` tai `git clone git@github.com:Testausserveri/testausserveri.fi.git`
+1. `npm install`
+1. Kopioi tiedosto `.env.example` tiedostoon `.env`
 1. `npm run dev` 
 
 ### react-komponenttien kehitys
